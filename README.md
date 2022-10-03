@@ -1,2 +1,2 @@
 # LasUIE
-This repo for Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model.
+This repository implements the method described in the paper [Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model]().
