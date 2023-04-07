@@ -1,0 +1,15 @@
+{
+  "dataset": "nyt",
+  "model_type": "lasuie-struct-tuning",
+  "task_type": "pair",
+  "lm_location": "google/flan-t5-base",
+  "learning_rate": 5e-6,
+  "other_learning_rate": 5e-4,
+  "adam_epsilon": 1e-8,
+  "warmup_steps": 100,
+  "weight_decay": 0.00001,
+  "train_batch_size": 1,
+  "val_batch_size": 1,
+  "max_length": 100,
+  "gradient_accumulation_steps": 4
+}

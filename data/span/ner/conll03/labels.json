@@ -1,0 +1,9 @@
+{
+  "ner": "named entity recognition",
+  "span-attribute": {
+    "LOC": "location",
+    "ORG": "organization",
+    "PER": "person",
+    "MISC": "miscellaneous"
+  }
+}
