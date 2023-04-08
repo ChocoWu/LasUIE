@@ -1,5 +1,6 @@
-# LasUIE (Latent Adaptive Structure-aware LM for UIE)
+# LasUIE
 
+### Latent Adaptive Structure-aware LM for Universal Information Extraction
 
 **The pytroch implementation of the NIPS-2022 paper [Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model](https://proceedings.neurips.cc/paper_files/paper/2022/hash/63943ee9fe347f3d95892cf87d9a42e6-Abstract-Conference.html)**.
 
