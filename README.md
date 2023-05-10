@@ -2,8 +2,8 @@
 <a href="https://github.com/ChocoWu/LasUIE">
   <img src="https://img.shields.io/badge/LasUIE-1.0-blue" alt="pytorch 1.8.1">
 </a>
-<a href="https://github.com/unikcc/DiaASQ" rel="nofollow">
-  <img src="https://img.shields.io/badge/pytorch-1.8.1-green" alt="pytorch 1.8.1">
+<a href="https://pytorch.org" rel="nofollow">
+  <img src="https://img.shields.io/badge/pytorch-1.10.0-green" alt="pytorch 1.8.1">
 </a>
 <a href="https://huggingface.co/docs/transformers/index" rel="nofollow">
   <img src="https://img.shields.io/badge/transformers-4.24.0-orange" alt="Build Status">
