@@ -1,21 +1,46 @@
-# LasUIE
+# LasUIE: Latent Adaptive Structure-aware LM for Universal Information Extraction
+<a href="https://github.com/ChocoWu/LasUIE">
+  <img src="https://img.shields.io/badge/LasUIE-0.1-blue" alt="pytorch 1.8.1">
+</a>
+<a href="https://github.com/unikcc/DiaASQ" rel="nofollow">
+  <img src="https://img.shields.io/badge/pytorch-1.8.1-green" alt="pytorch 1.8.1">
+</a>
+<a href="https://huggingface.co/docs/transformers/index" rel="nofollow">
+  <img src="https://img.shields.io/badge/transformers-4.24.0-orange" alt="Build Status">
+</a>
 
-### Latent Adaptive Structure-aware LM for Universal Information Extraction
 
-**The pytroch implementation of the NIPS-2022 paper [Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model](https://proceedings.neurips.cc/paper_files/paper/2022/hash/63943ee9fe347f3d95892cf87d9a42e6-Abstract-Conference.html)**.
+
+**The pytroch implementation of the NIPS-2022 paper [Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model](https://arxiv.org/abs/2304.06248)**.
 
 ----------
 
-## 0. Online Demo Page is on
-
-
-### Please visit [this site](#0-online-demo-page-is-on).
+## Online Demo Page is on 🎉
+### Please visit [this site](https://github.com/ChocoWu/LasUIE).
 
 ----------
 
-## 1. Methodology Description 
 
-### 1.1  Modeling Universal Information Extraction (UIE)
+## Quick Links
+- [Methodology](#methodology)
+  - [Modeling Universal Information Extraction (UIE)](#UIE)
+  - [UIE with Structure-aware Generative Language Model](#LasUIE)
+- [Code Usage](#code)
+  - [Requirement Installation](#requirement)
+  - [Code Structure](#structure)
+  - [Running Pipeline](#pipeline)
+    - [Structure-aware post-training](#post-training)
+    - [Supervised fine-tuning](#fine-tuning)
+    - [Inference](#inference)
+  - [Dataset & Evaluating](#dataset-evaluating)
+- [MISC](#misc)
+
+
+----------
+
+## 1. Methodology<a name="methodology" />
+
+### 1.1  Modeling Universal Information Extraction (UIE)<a name="UIE" />
 
 [UIE](https://aclanthology.org/2022.acl-long.395/) has been proposed to unify all information extraction tasks in NLP community, which converts the structure prediction of IE tasks universally into the sequence prediction via generative LMs.
 
@@ -66,7 +91,7 @@ For example,
   -  *{ ... , ( Span<sub>i</sub> , Attr<sub>i</sub> [ Rel<sub>k</sub> ] Span<sub>j</sub> , Attr<sub>j</sub> [ Rel<sub>m</sub> ] Span<sub>n</sub> , Attr<sub>n</sub> ,  ... ) ,  ... }*
 
 
-### 1.2 UIE with Structure-aware Generative Language Model
+### 1.2 UIE with Structure-aware Generative Language Model<a name="LasUIE" />
 
 As cast above, UIE has two key common challenges of IEs: 
 
@@ -123,9 +148,9 @@ such that the learned structural features are most coincident with the end task 
 ----------------
 
 
-## 2. Code Usage 
+## 2. Code Usage<a name="code" />
 
-### 2.1  Requirement Installation
+### 2.1  Requirement Installation<a name="requirement" />
 
 - Step 1: install base envir
   ``` bash 
@@ -147,7 +172,7 @@ such that the learned structural features are most coincident with the end task 
   ```
 
 
-### 2.2  Code Structure
+### 2.2  Code Structure<a name="structure" />
 
 
 ```
@@ -209,7 +234,7 @@ such that the learned structural features are most coincident with the end task 
 
 
 
-### 2.3  Running Pipeline
+### 2.3  Running Pipeline<a name="pipeline" />
 
 
 The general pipeline goes as:
@@ -225,7 +250,7 @@ Step 4             run_inference.py
 ```
 
 
-#### 2.3.1  Structure-aware post-training
+#### 2.3.1  Structure-aware post-training<a name="post-training" />
 
 
 - Please prepare the corpus for the post-training, as in 
@@ -258,7 +283,7 @@ Step 4             run_inference.py
 
 
 
-#### 2.3.2  Supervised fine-tuning
+#### 2.3.2  Supervised fine-tuning<a name="fine-tuning" />
 
 
 **A. task-oriented fine-tuning**
@@ -311,7 +336,7 @@ Step 4             run_inference.py
 
 
 
-#### 2.3.3  Inference
+#### 2.3.3  Inference<a name="inference" />
 
 
 - Configurate correctly the argument `model_checkpoint` with the well-trained model.
@@ -327,7 +352,7 @@ Step 4             run_inference.py
 
 
 
-### 2.4 Dataset & Evaluating
+### 2.4 Dataset & Evaluating<a name="dataset-evaluating" />
 
 
 
@@ -377,7 +402,7 @@ Step 4             run_inference.py
 -------------------------------------
 
 
-## 3 MISC
+## 3 MISC<a name="misc" />
 
 
 ### 3.1 Citation
