@@ -23,8 +23,8 @@
 
 ## Quick Links
 - [Methodology](#methodology)
-  - [Modeling Universal Information Extraction (UIE)](#UIE)
-  - [UIE with Structure-aware Generative Language Model](#LasUIE)
+  - [Modeling Universal Information Extraction (UIE)](#uie)
+  - [UIE with Structure-aware Generative Language Model](#lasuie)
 - [Code Usage](#code)
   - [Requirement Installation](#requirement)
   - [Code Structure](#structure)
@@ -40,7 +40,7 @@
 
 ## 1. Methodology<a name="methodology" />
 
-### 1.1  Modeling Universal Information Extraction (UIE)<a name="UIE" />
+### 1.1  Modeling Universal Information Extraction (UIE)<a name="uie" />
 
 [UIE](https://aclanthology.org/2022.acl-long.395/) has been proposed to unify all information extraction tasks in NLP community, which converts the structure prediction of IE tasks universally into the sequence prediction via generative LMs.
 
@@ -91,7 +91,7 @@ For example,
   -  *{ ... , ( Span<sub>i</sub> , Attr<sub>i</sub> [ Rel<sub>k</sub> ] Span<sub>j</sub> , Attr<sub>j</sub> [ Rel<sub>m</sub> ] Span<sub>n</sub> , Attr<sub>n</sub> ,  ... ) ,  ... }*
 
 
-### 1.2 UIE with Structure-aware Generative Language Model<a name="LasUIE" />
+### 1.2 UIE with Structure-aware Generative Language Model<a name="lasuie" />
 
 As cast above, UIE has two key common challenges of IEs: 
 
