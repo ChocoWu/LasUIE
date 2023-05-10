@@ -1,6 +1,6 @@
 # LasUIE: Latent Adaptive Structure-aware LM for Universal Information Extraction
 <a href="https://github.com/ChocoWu/LasUIE">
-  <img src="https://img.shields.io/badge/LasUIE-0.1-blue" alt="pytorch 1.8.1">
+  <img src="https://img.shields.io/badge/LasUIE-1.0-blue" alt="pytorch 1.8.1">
 </a>
 <a href="https://github.com/unikcc/DiaASQ" rel="nofollow">
   <img src="https://img.shields.io/badge/pytorch-1.8.1-green" alt="pytorch 1.8.1">
