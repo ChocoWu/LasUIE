@@ -15,11 +15,6 @@
 
 ----------
 
-## Online Demo Page is on 🎉
-### Please visit [this site](https://github.com/ChocoWu/LasUIE).
-
-----------
-
 
 ## Quick Links
 - [Methodology](#methodology)
