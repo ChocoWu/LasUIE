@@ -13,6 +13,10 @@
 
 **The pytroch implementation of the NIPS-2022 paper [Unifying Information Extraction with Latent Adaptive Structure-aware Generative Language Model](https://arxiv.org/abs/2304.06248)**.
 
+
+----------
+🎉 Visit the project page here [LasUIE](http://haofei.vip/LasUIE-page/)
+
 ----------
 
 
